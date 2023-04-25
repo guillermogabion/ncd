@@ -10,7 +10,7 @@
       <v-toolbar
         flat
       >
-        <v-toolbar-title>Student Records</v-toolbar-title>
+        <v-toolbar-title>NCDS</v-toolbar-title>
         <v-divider
           class="mx-4"
           inset

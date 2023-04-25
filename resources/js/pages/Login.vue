@@ -10,7 +10,7 @@
               </div>
 
               <v-col>
-                <v-text-field v-model="email" dense filled label="Email"></v-text-field>
+                <v-text-field v-model="email" dense filled label="USERNAME"></v-text-field>
 
                 <v-text-field
                   v-model="password"

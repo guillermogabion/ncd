@@ -8,12 +8,7 @@
    >
    
     <v-list-item class="px-2 pt-2">
-        <v-img
-        color="primary"
-        size="40"
-        :src="logocard"
-        >
-        </v-img>
+      <p style="font-weight: bold; font-size: 30px">NCDS</p>
     </v-list-item>
    
     <v-list
@@ -50,10 +45,14 @@ export default {
     data : () => ({
         logocard,
         items : [
+              {title : 'Patients', icon: 'mdi-view-dashboard', route: '/'},
+            {title : 'Medicine', icon: 'mdi-view-dashboard', route: '/medicine'},
+            {title : 'Disease', icon: 'mdi-view-dashboard', route: '/disease'},
+            
             // {title : 'Dashboard', icon: 'mdi-view-dashboard', route: '/'},
             // {title : 'Items', icon: 'mdi-view-dashboard', route: '/allitems'},
-            {title : 'Student Record', icon: 'mdi mdi-account-group', route: '/'},
-            {title : 'Students Subjects', icon: 'mdi mdi-account-group', route: '/student-subjects'},
+            // {title : 'Student Record', icon: 'mdi mdi-account-group', route: '/'},
+            // {title : 'Students Subjects', icon: 'mdi mdi-account-group', route: '/student-subjects'},
             // {title : 'Participants', icon: 'mdi mdi-account-group', route: '/attendee'},
             // {title : 'Enrollee', icon: 'mdi mdi-account-group', route: '/enrollee'},
             // {title : 'Settings', icon: 'mdi-view-dashboard', route: '/setting'}, 

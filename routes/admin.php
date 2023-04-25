@@ -18,12 +18,21 @@ Route::group(['prefix' => '/v1', 'middleware' => ['auth:admin-api']], function (
     Route::get('user', 'UserController@index');
  
 
-    Route::post('add-student', 'UserController@addRegister');
-    Route::get('get-student', 'UserController@displayStudent');
-    Route::post('edit-student/{id}', 'UserController@editStudent');
+    Route::get('get-patient', 'PatientController@get');
+    Route::delete('delete-patient', 'PatientController@delete');
+    Route::post('add-patient', 'PatientController@store');
+    Route::post('update-patient/{id}', 'PatientController@update');
 
-    Route::post('insert-subjects', 'RecordController@store');
+    Route::get('get-medicine', 'MedicineController@get');
+    Route::delete('delete-medicine', 'MedicineController@delete');
+    Route::post('add-medicine', 'MedicineController@store');
+    Route::post('update-medicine/{id}', 'MedicineController@update');
+  
+    Route::get('get-disease', 'DiseaseController@get');
+    Route::delete('delete-disease', 'DiseaseController@delete');
+    Route::post('add-disease', 'DiseaseController@store');
+    Route::post('update-disease/{id}', 'DiseaseController@update');
 
 
-    Route::get('display-subjects', 'UserController@displaySubjects');
+
 });

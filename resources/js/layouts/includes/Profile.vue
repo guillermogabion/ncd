@@ -17,11 +17,7 @@
               size="32"
               class="clicker"
             >
-              <v-img
-                  :src="logo"
-                  contain
-                  alt="admin"
-              />
+             
             </v-avatar>
           </template>
            <v-list

@@ -21,6 +21,11 @@ import Attendance from '../pages/Attendance.vue'
 
 import StudentsSubj from '../pages/Admin/StudentSubj'
 
+
+import Patient from '../pages/Patient'
+import Medicine from '../pages/Medicine'
+import Disease from '../pages/Disease'
+
 // student  
 
 import Students from '../pages/Admin/Student'
@@ -60,35 +65,35 @@ export default [{
         // employee 
         {
             path: '/',
-            name: 'student',
-            component: Students,
+            name: 'patient',
+            component: Patient,
             meta: { authOnly: true },
             children : [
                
             ]
         },
         {
-            path: '/students',
-            name: 'student',
-            component: Students,
+            path: '/patient',
+            name: 'patient',
+            component: Patient,
             meta: { authOnly: true },
             children : [
                
             ]
         },
         {
-            path: '/student-subjects',
-            name: 'student-subjects',
-            component: StudentsSubj,
+            path: '/medicine',
+            name: 'medicine',
+            component: Medicine,
             meta: { authOnly: true },
             children : [
                
             ]
         },
         {
-            path: '/attendee/add',
-            name: 'attendee-add',
-            component: AddEmployee,
+            path: '/disease',
+            name: 'disease',
+            component: Disease,
             meta: { authOnly: true },
         },
 
