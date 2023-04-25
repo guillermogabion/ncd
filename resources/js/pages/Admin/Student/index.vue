@@ -10,7 +10,7 @@
       <v-toolbar
         flat
       >
-        <v-toolbar-title>NCDS</v-toolbar-title>
+        <v-toolbar-title>NCDAS</v-toolbar-title>
         <v-divider
           class="mx-4"
           inset

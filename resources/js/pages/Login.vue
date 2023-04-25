@@ -6,7 +6,9 @@
           <v-card width="500" class="mx-auto" elevation="3" color="white">
             <v-card>
               <div style="padding-top: 4%">
-                <v-img contain :src="logocard" max-height="30%" width="50%" class="mx-auto" />
+                <!-- <v-img contain :src="logocard" max-height="30%" width="50%" class="mx-auto" /> -->
+                <p class="font-weight: bold; font-size: 40px">RHU Non-Communicable Disease Analysis System</p>
+              
               </div>
 
               <v-col>

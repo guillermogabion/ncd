@@ -8,7 +8,7 @@
    >
    
     <v-list-item class="px-2 pt-2">
-      <p style="font-weight: bold; font-size: 30px">NCDS</p>
+      <p style="font-weight: bold; font-size: 30px">NCDAS</p>
     </v-list-item>
    
     <v-list
